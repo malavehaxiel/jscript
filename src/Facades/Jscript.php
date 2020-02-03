@@ -1,6 +1,6 @@
 <?php
 
-namespace MalaveHaxiel\JScript;
+namespace MalaveHaxiel\JScript\Facades;
 
 class Jscript extends \Illuminate\Support\Facades\Facade
 {
