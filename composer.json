@@ -1,0 +1,28 @@
+{
+    "name": "malavehaxiel/jscript",
+    "description": "Component that improves the handling of some bootstrap scripts",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Haxiel Malave",
+            "email": "malavehaxiel96@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+		"psr-4": {
+			"MalaveHaxiel\\JScript\\": "/src"
+		}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MalaveHaxiel\\JScript\\JScriptServiceProvider"
+            ],
+            "aliases": {
+                "Jscript": "MalaveHaxiel\\JScript\\Facades\\Jscript"
+            }
+        }
+    }
+}
